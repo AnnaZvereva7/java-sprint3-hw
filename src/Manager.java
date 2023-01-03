@@ -241,13 +241,11 @@ public class Manager {
             System.out.println("Задач с таким номером нет");
         }
     }
-
     public void deleteAll() {
         taskHashMap.clear();
         epicHashMap.clear();
         System.out.println("Список задач пуст");
     }
-
     public void readTaskFile() {
         String path = "resources/taskManager.csv";
 

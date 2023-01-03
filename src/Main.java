@@ -10,7 +10,8 @@ public class Main {
             command=scanner.nextInt();
             int uinNumber;
             switch (command) {
-                case 0: break;
+                case 0:
+                    break;
                 case 1:
                     manager.addTask();
                     break;
@@ -45,16 +46,15 @@ public class Main {
         }
     }
 
-
-        public static void printMenu () {
-            System.out.println("\nЧто бы вы хотели сделать?");
-            System.out.println("1 - Создать задачу");
-            System.out.println("2 - Вывести все задачи");
-            System.out.println("3 - Обновить задачу (по идентификатору)");
-            System.out.println("4 - Удалить задачу (по идентификатору)");
-            System.out.println("5 - Найти задачу (по идентификатору)");
-            System.out.println("6 - Удалить все задачи");
-            System.out.println("7 - Считать из файла"); //Для проверки работы только в начале
-            System.out.println("0 - Выход");
-        }
+    public static void printMenu () {
+        System.out.println("\nЧто бы вы хотели сделать?");
+        System.out.println("1 - Создать задачу");
+        System.out.println("2 - Вывести все задачи");
+        System.out.println("3 - Обновить задачу (по идентификатору)");
+        System.out.println("4 - Удалить задачу (по идентификатору)");
+        System.out.println("5 - Найти задачу (по идентификатору)");
+        System.out.println("6 - Удалить все задачи");
+        System.out.println("7 - Считать из файла"); //Для проверки работы только в начале
+        System.out.println("0 - Выход");
+    }
 }

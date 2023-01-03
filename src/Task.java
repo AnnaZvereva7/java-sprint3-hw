@@ -24,6 +24,7 @@ public class Task {
         return Objects.equals(name, otherTask.name)
                 &&Objects.equals(description, otherTask.description);
    }
+
     String returnStatus() {
         switch (status) {
             case 0: return "new";
